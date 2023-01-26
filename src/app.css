@@ -1,0 +1,11 @@
+.app{
+    width: 100%;
+    height: fit-content;
+
+}
+.conatiner{
+    width: 40%;
+    height:fit-content;
+    border: 1px solid black;
+    margin: auto;
+}

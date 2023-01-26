@@ -1,0 +1,73 @@
+.input-container{
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form div input{
+    width: 100%;
+    margin: auto;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+form button{
+    width: fit-content;
+    height:fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+cursor: pointer;
+}
+.list{
+    width: 100%;
+    height: fit-content;
+}
+.list ul{
+    list-style-type: none;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.list ul li{
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+}
+.list ul li div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.list ul li div button{
+    width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
